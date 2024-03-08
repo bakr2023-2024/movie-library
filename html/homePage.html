@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/home.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <h1><a href="homePage.html">Movie Library</a></h1>
+      <div>
+        <input type="search" id="movieQuery" />
+        <button id="searchBtn">Search</button>
+      </div>
+      <a href="watchlist.html">Watchlist</a>
+      <button id="toggleDarkMode" type="button">Dark Mode</button>
+    </nav>
+    <main>
+      <h2>Popular Movies</h2>
+      <section id="popular" class="cardContainer"></section>
+      <h2>Top Rated Movies</h2>
+      <section id="topRated" class="cardContainer"></section>
+      <h2>Upcoming Movies</h2>
+      <section id="upcoming" class="cardContainer"></section>
+      <h2>Now Playing</h2>
+      <section id="nowPlaying" class="cardContainer"></section>
+    </main>
+    <script src="../js/home.js" type="module"></script>
+  </body>
+</html>

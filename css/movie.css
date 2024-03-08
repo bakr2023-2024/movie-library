@@ -1,0 +1,52 @@
+iframe {
+  width: 75%;
+  height: 30%;
+}
+#movieContainer {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+#imgContainer {
+  width: 30%;
+}
+#navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+a {
+  color: skyblue;
+  text-decoration: none;
+}
+#movieInfo {
+  width: 65%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0.25rem;
+}
+#imgContainer img {
+  width: 100%;
+}
+.tagline {
+  color: darkgrey;
+  font-weight: bold;
+  font-style: italic;
+}
+#castContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.darkMode {
+  background-color: black;
+  color: white;
+}
+.cast {
+  text-align: center;
+  width: 10%;
+}
+.cast * {
+  margin: 0;
+}
+.cast img {
+  width: 100%;
+}
